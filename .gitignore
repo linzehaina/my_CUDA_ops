@@ -1,0 +1,15 @@
+# 忽视所有 __pycache__ 文件夹
+__pycache__/
+.vscode/
+
+# 忽视所有 .pyc 文件（Python编译缓存）
+*.pyc
+
+# 忽视所有 .pyo 文件
+*.pyo
+
+# 忽视所有 .pyd 文件（Windows Python扩展）
+*.pyd
+
+*.ncu-rep
+*.nsys-rep
