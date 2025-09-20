@@ -34,7 +34,7 @@ void cpuSgemm(
     }
 }
 
-//K must be a multiple of 8 
+//K must be a multiple of 16 
 //N must be a multiple of 4
 __global__ void sgemm_V3(
     float *__restrict__ a, float *__restrict__ b, float *__restrict__ c,
